@@ -17,6 +17,6 @@ jobs:
         username: ${{ secrets.USERNAME }}
         key: ${{ secrets.KEY }}
         script: |
-          cd /home/ubuntu/docker/nginx/tht-test
+          cd /home/ubuntu/docker/tht-durianpay
           docker compose build
           docker compose up -d
